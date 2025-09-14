@@ -47,6 +47,17 @@ const DishItems = ({
     handleSelectDish([...selectData, dishDetail]);
   };
 
+  const onHandleRemove = () => {  
+    const newUpdataList = allData.map((each) => {
+      if (each.id === id) {
+        return { ...each, isClick: false };
+      }
+      return each;
+    });
+    handleAllDish(newUpdataList);
+    handleSelectDish(selectData.filter((item) => item.id !== id));
+  };
+
   return (
     <li className="dishCard">
       {/* Small Card Section */}
