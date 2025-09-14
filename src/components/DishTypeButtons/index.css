@@ -1,0 +1,36 @@
+.dish-type-button-li {
+  list-style-type: none;
+}
+
+.dish-type-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+  height: 32px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.in-active {
+  color: #1c1c1c;
+  font-style: semi-bold;
+  background-color: transparent;
+  border: 1px solid #adadad;
+}
+
+.active {
+  background-color: #ff941a;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+.dish-type-count-span {
+  font-weight: 600;
+}

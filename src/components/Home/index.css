@@ -1,0 +1,271 @@
+.home-container {
+  max-width: 576px;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.search-container {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  background-color: transparent;
+  border: 1px solid #adadad;
+  border-radius: 12px;
+  padding: 10px;
+  flex: 1;
+}
+
+.search-container-back-btn-logo {
+  height: 12px;
+  width: auto;
+  cursor: pointer;
+}
+
+.search-container-input {
+  height: 100%;
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  color: #606060;
+}
+
+.search-container-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-container-icon-glass-logo {
+  height: 18px;
+  width: auto;
+}
+
+.dish-type-buttons-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.main-course-input-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.main-course-title {
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.input-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-card {
+  height: 24px;
+  width: 48px;
+  background-color: #ffffff;
+  border: 2px solid #f3f3f3;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-veg {
+  display: none;
+}
+
+.veg-checkbox-label {
+  background-color: #eeeeee;
+  height: 8px;
+  width: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.veg-checkbox-label::before {
+  content: "";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  background-image: url("https://res.cloudinary.com/da5t5yb4n/image/upload/v1757747204/Frame_19479_4_thrkx3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -0.2rem;
+  left: -0.2rem;
+}
+
+.input-veg:checked + .veg-checkbox-label {
+  background-color: #539a64;
+}
+
+.input-veg:checked + .veg-checkbox-label::before {
+  left: 1rem;
+  transition: left 0.4s linear;
+}
+
+.input-non-veg {
+  display: none;
+}
+
+.non-veg-checkbox-label {
+  background-color: #eeeeee;
+  height: 8px;
+  width: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.non-veg-checkbox-label::before {
+  content: "";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  background-image: url("https://res.cloudinary.com/da5t5yb4n/image/upload/v1757752895/Frame_19479_5_u1zyig.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -0.2rem;
+  left: -0.2rem;
+}
+
+.input-non-veg:checked + .non-veg-checkbox-label {
+  background-color: #e2574c;
+}
+
+.input-non-veg:checked + .non-veg-checkbox-label::before {
+  left: 1rem;
+  transition: left 0.4s linear;
+}
+
+.north-title-collapse-card {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 14px;
+  align-self: center;
+}
+
+.north-food-title {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.button-collapse {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.collapse-icon {
+  height: 9px;
+  width: 9px;
+}
+
+.dish-list-container {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 90%;
+  align-self: center;
+  overflow-y: scroll;
+}
+
+.footer-card {
+  max-width: 576px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.total-dish-card {
+  background-color: #fffaf4;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.total-dish-text {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1c1c1c;
+}
+
+.total-num-span {
+  font-weight: 700;
+}
+
+.total-btn-icon {
+  height: 10px;
+  width: 10px;
+  margin-right: 30px;
+}
+
+.continue-btn-card {
+  width: 100%;
+  height: 61px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 5px 0px #1c1c1c33;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.continue-btn {
+  background-color: #1c1c1c;
+  margin-left: 34px;
+  margin-right: 60px;
+  width: 100%;
+  height: 39px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}

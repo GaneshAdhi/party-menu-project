@@ -1,0 +1,217 @@
+.dishCard {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dish-small-card-one {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dishname-icon-color-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.dish-name {
+  font-family: Open Sans;
+  font-weight: 700;
+  color: #1c1c1c;
+  font-size: 10px;
+}
+
+.type-icon {
+  width: 8px;
+  height: 8px;
+}
+
+.dish-description-and-readbtn-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dish-description {
+  font-family: Open Sans;
+  font-weight: 500;
+  color: #7e7e7e;
+  font-size: 8px;
+  line-height: 12px;
+}
+
+.read-more-btn {
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #1c1c1c;
+  font-size: 8px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.dish-incrident-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.inc-bag-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.dish-ing-text {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  color: #ff8800;
+}
+
+.dish-small-card-two {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dish-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.add-btn-dish {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  color: #73ae78;
+  box-shadow: 0px 1px 8px 0px #1c1c1c26;
+  background-color: #ffffff;
+  width: 74px;
+  height: 30px;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  align-self: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -15px;
+  box-shadow: 0px 1px 8px 0px #1c1c1c26;
+}
+
+.remove-btn-color {
+  color: #ff941a;
+}
+
+.modal-content {
+  text-align: left;
+  padding: 20px;
+  max-width: 400px;
+  width: 90vw;
+  position: relative;
+}
+
+.modal-logo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.modal-title-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-content h2 {
+  @apply text-xl font-bold text-foreground;
+  margin: 0;
+}
+
+.modal-type-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.remove-btn {
+  background: #ffffff;
+  border: none;
+  color: #ff941a;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  box-shadow: 0px 1px 8px 0px #1c1c1c26;
+  top: 235px;
+  right: 20px;
+  padding: 6px 12px;
+}
+
+.add-btn-modal {
+  color: #73ae78;
+}
+
+.modal-description {
+  @apply text-sm text-muted-foreground;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+.modal-content b {
+  color: #1c1c1c;
+  font-weight: 600;
+}
+
+.ingredient-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  margin-top: auto;
+  color: #ff941a;
+}
+
+.ingredient-icon {
+  width: 16px;
+  height: 16px;
+}
